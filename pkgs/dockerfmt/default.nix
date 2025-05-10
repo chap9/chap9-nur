@@ -20,6 +20,5 @@ buildGoModule {
     mainProgram = "dockerfmt";
     homepage = "https://github.com/reteps/dockerfmt";
     license = licenses.mit;
-    maintainers = with maintainers; [ chap9 ];
   };
 }
