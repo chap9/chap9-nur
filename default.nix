@@ -15,4 +15,5 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   dockerfmt = pkgs.callPackage ./pkgs/dockerfmt { };
+  aider-chat = pkgs.python312Packages.callPackage ./pkgs/aider-chat { };
 }
