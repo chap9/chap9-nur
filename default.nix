@@ -16,4 +16,5 @@
 
   dockerfmt = pkgs.callPackage ./pkgs/dockerfmt { };
   aider-chat = pkgs.python312Packages.callPackage ./pkgs/aider-chat { };
+  yapf = pkgs.python312Packages.callPackage ./pkgs/yapf { };
 }
